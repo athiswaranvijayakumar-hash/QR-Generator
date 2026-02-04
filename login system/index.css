@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99.8vh;
+}
+.content{
+  height: 170px;
+  width: 370px;
+  padding: 20px;
+  background-color: antiquewhite;
+  justify-items: center;
+  border-radius: 8px;
+  cursor: default;
+}
+.box{
+  margin: 4px;
+  padding: 4px;
+  margin-left: 10%;
+  width: 80%;
+
+}
+.btn{
+  margin: 4px;
+  padding: 4px;
+  margin-left: 35%;
+  width: 80px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid gray;
+}
+.btn:hover{
+  background-color: green;
+   border: 2px solid green;
+}

@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.p{
+  display: inline-block;
+   margin-left: 75%;
+   margin-top: 20px;
+   padding: 8px;
+   background-color: rgb(185, 185, 185);
+   color: rgb(16, 16, 16);
+   border-radius: 15px;
+}
+.log{
+  margin-top: 30%;
+  margin-left: 45%;
+  width: 75px;
+  padding: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+   
+.log:hover{
+  background-color: red;
+}

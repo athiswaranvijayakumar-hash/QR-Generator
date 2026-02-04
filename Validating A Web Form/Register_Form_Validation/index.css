@@ -1,0 +1,41 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial;
+  background:#f4f4f4;
+}
+h2{
+  cursor: default;
+}
+
+.container{
+  width:350px;
+  margin:50px auto;
+  background:white;
+  padding:20px;
+  border-radius:8px;
+  box-shadow:0 0 10px #ccc;
+}
+
+.box{
+  width:99%;
+  padding:8px;
+  margin:8px 0;
+}
+
+button{
+  width:100%;
+  padding:10px;
+  background:green;
+  color:white;
+  border:none;
+  cursor:pointer;
+}
+
+.error{
+  color:red;
+  font-size:14px;
+}
